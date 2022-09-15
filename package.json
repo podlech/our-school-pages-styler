@@ -1,0 +1,17 @@
+{
+  "name": "our-school-pages-styler",
+  "version": "1.0.0",
+  "description": "Our School Pages Styler",
+  "author": "JP Podlech",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "picnic": "^7.1.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/parcel build scss/custom.scss"
+  }
+}

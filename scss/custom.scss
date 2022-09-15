@@ -1,0 +1,109 @@
+@import "../node_modules/picnic/src/picnic";
+
+// Then add additional custom code here
+
+#NavigationBarTopDiv {
+    background-image: none !important;
+}
+
+#NavigationBarMiddleDiv {
+    background-image: none !important;
+}
+
+#NavigationBarBottomDiv {
+    background-image: none !important;
+}
+
+.NavigationSubmenuTopDiv {
+    background-image: none !important;
+}
+
+.NavigationSubmenuMiddleDiv {
+    background-image: none !important;
+}
+
+.NavigationSubmenuBottomDiv {
+    background-image: none !important;
+}
+
+.FullBox {
+    box-shadow: none !important;
+    clear: none !important;
+}
+
+.OuterBoxHeader {
+    height: auto !important;
+}
+
+.NavigationSubmenuDiv {
+    background-color: rgb(240, 240, 240);
+}
+
+body {
+    font-family: 'Lato', serif;
+    background-color: rgb(240, 240, 240) !important;
+}
+
+.ArticleTitleDiv {
+    color: rgb(37, 56, 129) !important;
+}
+
+.ArticlePostedOnDiv {
+    color: gray;
+}
+
+.VeryNarrowMarginsDiv > hr {
+    margin: 2em 0;
+}
+
+.navbar-toggler {
+    color: rgb(37, 56, 129) !important;
+}
+
+input[type=image] {
+    width: auto !important;
+}
+
+#SignInBarMiddleDiv > div:nth-child(2) {
+    top: 0 !important;
+}
+
+#google_translate_element {
+    height: 20px;
+    overflow: hidden;
+}
+
+[id|=":0.targetLanguage"] {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#WhiteSpaceFillerDiv {
+    display: none;
+}
+
+table {
+    border-color: rgb(37, 56, 129) !important;
+}
+
+tr:nth-child(2n) {
+    background: #f0f0f0 !important;
+}
+
+#SignInBarLeftDiv {
+    background: rgb(37, 56, 129) !important;
+    border-radius: 100px 0 0 0;
+    -moz-border-radius: 100px 0 0 0;
+    -webkit-border-radius: 100px 0 0 0;
+}
+
+#SignInBarMiddleDiv {
+    background: rgb(37, 56, 129) !important;
+}
+
+#SignInBarRightDiv {
+    background: rgb(37, 56, 129) !important;
+    border-radius: 0 100px 0 0;
+    -moz-border-radius: 0 100px 0 0;
+    -webkit-border-radius: 0 100px 0 0;
+}
