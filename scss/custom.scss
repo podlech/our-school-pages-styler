@@ -107,3 +107,7 @@ tr:nth-child(2n) {
     -moz-border-radius: 0 100px 0 0;
     -webkit-border-radius: 0 100px 0 0;
 }
+
+div.d-flex #SignInBarMiddleDiv {
+    background: none !important;
+}
